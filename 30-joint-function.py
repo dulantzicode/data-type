@@ -16,5 +16,6 @@ resultado = '= -cuatro'
 
 operacion = '-'.join(lista)
 operacion_completa = operacion + resultado
+
 print(operacion_completa)
 print(operacion, resultado)
