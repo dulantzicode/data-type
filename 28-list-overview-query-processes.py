@@ -4,6 +4,9 @@ number_of_tags = len(tags)
 last_item = tags[-1]
 index_of_last_item = tags.index(last_item)
 
+tags[-1]='codex'
+
 print(number_of_tags)
 print(last_item)
 print(index_of_last_item)
+print(tags)
