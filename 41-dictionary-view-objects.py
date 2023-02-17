@@ -19,8 +19,6 @@ Por ello si queremos trabajar con los valores a los que accedimos
 es conveniente realizar una 'copia' del diccionario.
 Para ello usamos la clase list() que nos permite trabajar los
 diccionarios como si fuesen listas.
-
-
 """
 
 player_names = list(players.copy().values())
