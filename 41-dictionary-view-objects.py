@@ -24,6 +24,10 @@ diccionarios como si fuesen listas.
 player_names = list(players.copy().values())
 # la clase list permite trabajar la vista del diccionario
 # como si fuese una lista y, en este caso, almacenarla como lista.
+# El método .copy() genera una lista del diccionario
+# el metodo values() selecciona solo los valores del diccionario
+# sin la clave (key) 
+
 
 print(player_names)
 
@@ -34,7 +38,8 @@ teams = {
   "red sox": ["Price", "Betts"],
 }
 
-team_groupings = teams.items()
+team_groupings = teams.items() 
+# el método items() crea una vista con todo el contenido del diccionario.
 
 """
 [
