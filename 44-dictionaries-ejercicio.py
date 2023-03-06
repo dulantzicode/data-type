@@ -14,6 +14,8 @@ ventas = {
 longitud = (len(ventas))
 ventas_groupings = ventas.items()
 
+print(ventas_groupings)
+
 for i in range(longitud):
     print(list(ventas_groupings)[i][0] + ' ' +
          (list(ventas_groupings)[i][1])*'$')

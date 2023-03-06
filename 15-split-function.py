@@ -1,3 +1,7 @@
+import os
+os.system('cls')
+
+
 tags = 'python,coding,programming,development'
 # esto es un string
 

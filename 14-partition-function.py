@@ -1,6 +1,10 @@
+import os
+os.system('cls')
+
+
 heading = "Python: An Introduction: and Python: Advanced"
 
-header, _, subheader, final = heading.partition(': ')
+header, _, subheader = heading.partition(': ')
 
 #utiliza ': ' (o lo que sea que haya) como punto de corte
 #el '_' representa una variable que no se va a usar
