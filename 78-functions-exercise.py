@@ -16,4 +16,4 @@ def FizzBuzz(max_range):
 
 
 
-FizzBuzz(30)
+FizzBuzz(100)
