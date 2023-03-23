@@ -8,6 +8,8 @@ for letter in alphabet:
   print(letter)
 
 
+print(alphabet[1:3])
+
 def loop_over_string():
     name = 'David'
     for letter in name:
